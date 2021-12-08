@@ -12,10 +12,10 @@ public class Linkedlist {
         }else {            //if fist place is not empty then traverse the linked list and find 
                             //where the place is empty 
             Node r = head;
-            while(r.next != null){
-                  r = r.next;
+            while(r.next != null){ // traverse the linkedlist till the end
+                  r = r.next; //node by node 
             }
-            r.next = n;
+            r.next = n; //wherever you find empty place insert the new node
         }
     }
 
@@ -46,30 +46,30 @@ public class Linkedlist {
         head = n;
     }
     
-    public static void deleteAtplace(int place){ 
+    public static void deleteAtplace(int place){ //delete the node  at the place you want 
       
-        if(place == 0){
+        if(place == 0){              //if you want to delete the head
             head = head.next;
         }else{
-            Node r = head;
-            Node temp = new Node();
+            Node r = head;      //else traverse untill the place at which node is to be deleted is reached 
+            Node temp = new Node();   
             for(int i =0 ; i < place-1 ; i++){
                 r =r.next;
             }
             temp = r.next;
             r.next = temp.next;
 
-            temp = null;
+            temp = null; 
         }
     }
 
-    public static  void show(){
+    public static  void show(){  //for printing the elements 
        
         Node node = head;
-        while(node.next != null){
-            System.out.println(node.data);
-			node = node.next;
+        while(node != null){   //traverse till the end 
+            System.out.println(node.data); //print the data part of linkedlist
+			node = node.next;   //node by node 
         }
-        System.out.println(node.data);
+      
     }
 }
