@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "634339112333",
+    "project_id": "farmingo-bd834",
+    "storage_bucket": "farmingo-bd834.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:634339112333:android:4e27878a329c96fb4b79c4",
+        "android_client_info": {
+          "package_name": "com.sonal.farmingo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "634339112333-bosd4uq6f19gtdeem0uvp1ags43bctv8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQAeE1i06abOqwiT9JVv2ZVEFOTA8BmJw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "634339112333-bosd4uq6f19gtdeem0uvp1ags43bctv8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
